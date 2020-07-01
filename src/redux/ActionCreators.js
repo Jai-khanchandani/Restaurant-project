@@ -1,7 +1,5 @@
 import * as ActionTypes from './ActionTypes';
-import { DISHES } from '../shared/dishes';
 import { baseUrl } from '../shared/baseUrl';
-import { findRenderedDOMComponentWithClass } from 'react-dom/test-utils';
 
 export const addComment = (comment) => ({
     type: ActionTypes.ADD_COMMENT,
